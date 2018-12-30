@@ -38,6 +38,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe50_particle.StartupCommon.preInitCommon();
     minecraftbyexample.mbe60_network_messages.StartupCommon.preInitCommon();
     minecraftbyexample.mbe75_testing_framework.StartupCommon.preInitCommon();
+    minecraftbyexample.mbe100_zombie_mod.StartupCommon.preInitCommon();
     minecraftbyexample.testingarea.StartupCommon.preInitCommon();
   }
 
@@ -70,6 +71,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe50_particle.StartupCommon.initCommon();
     minecraftbyexample.mbe60_network_messages.StartupCommon.initCommon();
     minecraftbyexample.mbe75_testing_framework.StartupCommon.initCommon();
+    minecraftbyexample.mbe100_zombie_mod.StartupCommon.initCommon();
 //    minecraftbyexample.testingarea.StartupCommon.initCommon();
   }
 
@@ -101,6 +103,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe50_particle.StartupCommon.postInitCommon();
     minecraftbyexample.mbe60_network_messages.StartupCommon.postInitCommon();
     minecraftbyexample.mbe75_testing_framework.StartupCommon.postInitCommon();
+    minecraftbyexample.mbe100_zombie_mod.StartupCommon.postInitCommon();
     minecraftbyexample.testingarea.StartupCommon.postInitCommon();
   }
 

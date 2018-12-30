@@ -24,9 +24,9 @@ public class FurnaceFuelBurnTimeEventHandler {
   public void onFurnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event)
   {
     ItemStack fuel = event.getItemStack();
-    final int BURN_TIME_SECONDS = 5;
+    final int BURN_TIME_SECONDS = 60;
     final int TICKS_PER_SECOND = 20;
-    if (fuel.getItem() == Items.WHEAT) {
+    if (fuel.getItem() == Items.FISH) {
       event.setBurnTime(BURN_TIME_SECONDS * TICKS_PER_SECOND);
     }
   }
